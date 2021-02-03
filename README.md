@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Create .env file to connect to Spotify API
+REACT_APP_CLIENT_ID=your_client_id
+REACT_APP_AUTHORIZE_URL=https://accounts.spotify.com/authorize
+REACT_APP_REDIRECT_URL=http://localhost:3000/redirect
+
